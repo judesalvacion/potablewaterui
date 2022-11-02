@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_3"
+    tools:context=".aboutapp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:text="  Potable water, also known as drinking water, comes from surface and ground sources and is treated to levels that that meet state and federal standards for consumption. Water from natural sources is treated for microorganisms, bacteria, toxic chemicals, viruses and fecal matter."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:text="  . The Internet of Things (IoT) connects numerous devices and allows them to communicate and gather data. Using Business 4.0, IoT extends its capabilities to environmental challenges in addition to the automation industry. Because water is one of the most basic requirements for human living, some system to monitor water quality must be included. Contaminated water is responsible for around 40% of all deaths worldwide. As a result, clean drinking water must be made available to people in both cities and villages. Water Quality Monitoring (WQM) is a cost-effective and efficient solution that uses Internet of Things (IoT) technology to monitor drinking water quality. The suggested system in this work consists of many sensors that detect various factors such as pH, turbidity in the water, tank level, temperature, and humidity in the surrounding atmosphere. To monitor the water quality, the data is sent to the cloud via the IoT-based Think Speak application."
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="Back"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
